@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(
-	features = ".", glue = {"stepdefinations"} , tags = {"@Release_10.2"},
+	features = ".", glue = {"stepdefinations"} , tags = {"@Promo"},
 	
 	plugin = {"pretty","html:target/cucumber-html-report","json:target/cucumber.json","rerun:target/failedrerun.txt"}
 	

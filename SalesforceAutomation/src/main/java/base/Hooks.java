@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import cucumber.runtime.Timeout;
 import pageObject.Login;
+import pageObject.Login_CMS;
 
 public class Hooks extends BaseClass {
 
@@ -31,6 +32,18 @@ public class Hooks extends BaseClass {
 		}
 		driver.findElement(Login.AppMenu);
 		System.out.println("------------------------ Salesforce Page display ------------------");
+		
+	}
+	
+	public static void LoginCMS() {
+		
+		
+		headless = false;
+		BaseClass.initialize_CMS_Portal();
+		driver.findElement(Login_CMS.UserName_CMS).sendKeys(prop.getProperty("UserName_CMS"));
+		driver.findElement(Login_CMS.Password_CMS).sendKeys(prop.getProperty("Password_CMS"));
+		driver.findElement(Login_CMS.login_CMS).click();
+		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		
 	}
 	

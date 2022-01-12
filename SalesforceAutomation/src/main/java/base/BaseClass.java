@@ -55,6 +55,22 @@ public class BaseClass {
 		
 	}
 	
+	public static void initialize_CMS_Portal() {
+		String browserName = "chrome";
+		os = System.getProperty("os.name");
+		System.out.println("Operating System is - "+os);
+		SelectDriver(browserName,os);
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(prop.getProperty("Url_CMS"));
+		driver.manage().window().maximize();
+		
+				
+		
+		
+	}
+	
 	protected static void SelectDriver(String browserName, String os) {
 		if(headless) {
 			
