@@ -11,4 +11,6 @@ public class Login extends BaseClass {
 	public static final By login = By.xpath("//input[@id='Login']");
 	public static final By AppMenu = By.xpath("//div[@class='slds-icon-waffle']");
 	public static final By Remind_me_later = By.xpath("//a[text()='Remind Me Later']");
+
+	
 }

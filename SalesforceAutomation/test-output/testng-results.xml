@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-14T12:07:24Z" name="Default suite" finished-at="2021-10-14T12:08:03Z" duration-ms="39721">
+  <suite started-at="2022-01-07T13:26:42Z" name="Default suite" finished-at="2022-01-07T13:27:11Z" duration-ms="29153">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-10-14T12:07:24Z" name="Default test" finished-at="2021-10-14T12:08:03Z" duration-ms="39721">
+    <test started-at="2022-01-07T13:26:42Z" name="Default test" finished-at="2022-01-07T13:27:11Z" duration-ms="29153">
       <class name="runnerFile.RegressionRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2021-10-14T12:07:24Z" name="setUpClass" finished-at="2021-10-14T12:07:24Z" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2022-01-07T13:26:42Z" name="setUpClass" finished-at="2022-01-07T13:26:43Z" duration-ms="958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2021-10-14T12:07:24Z" name="setup" finished-at="2021-10-14T12:07:24Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2022-01-07T13:26:43Z" name="setup" finished-at="2022-01-07T13:26:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2021-10-14T12:07:25Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-10-14T12:08:03Z" duration-ms="38340" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2022-01-07T13:26:43Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-01-07T13:27:11Z" duration-ms="27466" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Account Managment]]>
+                <![CDATA[Promotion Management]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2021-10-14T12:08:03Z" name="teardown" finished-at="2021-10-14T12:08:03Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2022-01-07T13:27:11Z" name="teardown" finished-at="2022-01-07T13:27:11Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2021-10-14T12:08:03Z" name="tearDownClass" finished-at="2021-10-14T12:08:03Z" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerFile.RegressionRunner@2e48362c]" started-at="2022-01-07T13:27:11Z" name="tearDownClass" finished-at="2022-01-07T13:27:11Z" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -1,0 +1,61 @@
+{  
+   "phone_no":"0",
+   "purchase_no":"POSTMAN-a58gpin5jmr-iotc4ztjy2n",
+   "device_id":"",
+   "token_id":"788229d12cd447af82a4d182a459e390",
+   "ft_group_id":"2",
+   "product_id":"1",
+   "trx_time":"20190523192948",
+   "site_id":"4_N",
+   "user_token":"9ee9a95346374037a794fc08c702f943",
+   "ticketlist":[  
+      {  
+         "ticket_fare":"225",
+         "origin":"144",
+         "destination":"140",
+         "origin_abbrev_1":"NW BRUN",
+         "activation_start":0,
+         "via_text":"direct",
+         "via":"1345",
+         "activation_end":0,
+         "ticket_no":"1",
+         "bus_zone":"",
+         "additional_dataflag":"",
+         "activation_state":1,
+         "tt_id":"11001",
+         "faretable":"1",
+         "destination_text":"EDISON",
+         "via_abbrev_1":"direct",
+         "discount_type":"OW",
+         "end_validity":"",
+         "destination_abbrev_1":"EDISON",
+         "activation_counter":0,
+         "start_validity":"",
+         "origin_text":"NEW BRUNSWICK",
+         "ticket_amount":"225",
+         "jt_id":"",
+         "ryder_type":"One Way"
+      }
+   ],
+   "app_id":"",
+   "paymentlist":[  
+      {  
+        "zip": "90001",
+        "payment_type": "2",
+        "cvv": "123",
+        "operation_type": "A",
+        "card_no": "4111111111111111",
+        "payment_nonce": "",
+        "payment_id": "Test CC",
+        "clientAction": "Add",
+        "name": "Test CC",
+        "exp": "0822",
+       "custid":"Test",
+       "payment_no":"0",
+       "amt":"225",
+       "action_flag":"A"
+       
+      }
+   ],
+   "email":"pm5qa0111162126wwl5kd8u@mailinator.com"
+}
